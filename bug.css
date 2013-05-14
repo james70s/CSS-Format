@@ -1,0 +1,81 @@
+/* bug 1*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,
+300);.bug2{box-shadow:2px 1px 2px 0 rgba(0,
+0,0,
+0.2);}
+.bug3{box-shadow:0 1px 2px rgba(0,
+0,0,
+0.05),
+inset 0 -15px 10px -12px rgba(0,
+0,0,
+0.05),
+inset 15px 10px -12px rgba(255,
+255,
+255,
+0.1)}
+.bug4{box-shadow:0 0 0 4px rgba(245,
+153,
+66,
+0.3);}
+.bug6{box-shadow:-1px 0 0 rgba(255,
+255,
+255,
+0.2),
+inset 1px 0 0 rgba(255,
+255,
+255,
+0.1)}
+.bug7{text-shadow:0 1px 1px rgba(0,
+0,0,
+0.3) inset;}
+.bug8{color:#FFF;font-family:Arial,
+Helvetica,
+sans-serif;}
+.bug9{background:radial-gradient(9px 9px 0deg,
+circle cover,
+aqua 0,
+rgba(0,
+0,255,
+0) 100%,
+blue 95%)}
+.bug10{background:-moz-linear-gradient(top,
+#3b98d6 0,
+#197ec1 100%)!important;background:-webkit-gradient(linear,
+left top,
+left bottom,
+color-stop(0%,
+#3b98d6),
+color-stop(100%,
+#197ec1))!important;background:-webkit-linear-gradient(top,
+#3b98d6 0,
+#197ec1 100%)!important;background:-o-linear-gradient(top,
+#3b98d6 0,
+#197ec1 100%)!important;background:-ms-linear-gradient(top,
+#3b98d6 0,
+#197ec1 100%)!important;background:linear-gradient(to bottom,
+#3b98d6 0,
+#197ec1 100%)!important;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3B98D6',
+endColorstr='#197EC1',
+GradientType=0)!important}
+.bug11{background-color:rgba(255,
+255,
+255,
+0.2)!important;}
+.bug12{border-bottom:7px solid rgba(0,
+0,0,
+0.2);}
+.bug13{visibility:hidden;position:absolute;overflow:hidden;width:100%;-moz-transform:scale(0,
+1) translate(-150px);-webkit-transform:scale(0,
+1) translate(-150px);-o-transform:scale(0,
+1) translate(-150px);-ms-transform:scale(0,
+1) translate(-150px);transform:scale(0,
+1) translate(-150px)}
+.login-layout .widget-box.visible{-moz-transform:scale(1,
+1) translate(0);-webkit-transform:scale(1,
+1) translate(0);-o-transform:scale(1,
+1) translate(0);-ms-transform:scale(1,
+1) translate(0);transform:scale(1,
+1) translate(0);}
+/* bug14 */
+@media only screen and (max-width:979px){.bug14{border-left:none}
+｝
